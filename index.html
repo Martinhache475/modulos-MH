@@ -4,11 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Curriculo</title>
     <link rel="stylesheet" href="./pages/estilos/style.css">
 </head>
 <body>
+    <dd>fg</dd>
     
+    <blockquote>magia <dialog open="">ingrese</dialog></blockquote>
+
+
+    <details>para mas informacion <a href="wwww.google.com">click</a></details>
+
+    <!-- Simple pop-up dialog box, containing a form -->
+<dialog id="favDialog">
+    <form method="dialog">
+      <section>
+        <p><label for="favAnimal">Rangos:</label>
+        <select id="favAnimal">
+            <option>elegir...</option>
+          <option>1988/1990</option>
+          <option>1990/1998</option>
+          <option>1999/2005</option>
+          <option>Clasificado</option>
+          <option>2005/-</option>
+        </select></p>
+      </section>
+      <menu>
+        <button type="submit">Confirmar</button>
+        <button id="cancel" type="reset">Cancelar</button>
+        <button id="cancel" type="reset">hola</button>
+        
+      </menu>
+    </form>
+  </dialog>
+  
+  <menu>
+    <button id="updateDetails">ver Rangos</button>
+  </menu>
+  
+  <script>
+    (function() {
+      var updateButton = document.getElementById('updateDetails');
+      var cancelButton = document.getElementById('cancel');
+      var holabutton = document.getElementById('hola');
+
+      var favDialog = document.getElementById('favDialog');
+  
+      // Update button opens a modal dialog
+      updateButton.addEventListener('click', function() {
+        favDialog.showModal();
+      });
+  
+      // Form cancel button closes the dialog box
+
+      cancelButton.addEventListener('click', function() {
+        favDialog.close(); 
+        
+      });
+      
+      
+    })();
+    
+  </script>
+  
+   
 <script src="./pages/scripts/scripts.js"></script>
 </body>
 </html>
