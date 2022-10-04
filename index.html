@@ -4,70 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+ 
     <title>Mi Curriculo</title>
     <link rel="stylesheet" href="./pages/estilos/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
-    <dd>fg</dd>
+  <header>
+    <div class="config">
+      <div class="conico"><img src="./favicon_io (1)/favicon-32x32.png">
+      <img src="./favicon_io (2)/favicon-32x32.png" alt="Spanish"></div>
+     </div>
+    <div class="navbar">
+                
+      <nav class="navbar bg-light">
+               
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Usuario" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">LOGIN</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+   <div class="imgcontainer">
+    <img class ="imghead" src="./img/background.jpg" alt="fondo1">
     
-    <blockquote>magia <dialog open="">ingrese</dialog></blockquote>
+    <img class="imgperfil" src="./img/yo redondo.png" alt="foto perfil">
+    <div class="botones">
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button class="btn-bd-primary" type="button">Skills</button>
+      <br>
+      <br>
+      <button class="btn-bd-primary" type="button">Soft Skills</button>
+      <br>
+      <br>
+      <button class="btn-bd-primary" type="button">About Me</button>
+      <br>
+      <br>
+  <!--
+      <button class="btn-bd-primary" type="button"></button>-->
+    </div>
+</div>
+</div>
 
 
-    <details>para mas informacion <a href="wwww.google.com">click</a></details>
-
-    <!-- Simple pop-up dialog box, containing a form -->
-<dialog id="favDialog">
-    <form method="dialog">
-      <section>
-        <p><label for="favAnimal">Rangos:</label>
-        <select id="favAnimal">
-            <option>elegir...</option>
-          <option>1988/1990</option>
-          <option>1990/1998</option>
-          <option>1999/2005</option>
-          <option>Clasificado</option>
-          <option>2005/-</option>
-        </select></p>
-      </section>
-      <menu>
-        <button type="submit">Confirmar</button>
-        <button id="cancel" type="reset">Cancelar</button>
-        <button id="cancel" type="reset">hola</button>
-        
-      </menu>
-    </form>
-  </dialog>
-  
-  <menu>
-    <button id="updateDetails">ver Rangos</button>
-  </menu>
-  
-  <script>
-    (function() {
-      var updateButton = document.getElementById('updateDetails');
-      var cancelButton = document.getElementById('cancel');
-      var holabutton = document.getElementById('hola');
-
-      var favDialog = document.getElementById('favDialog');
-  
-      // Update button opens a modal dialog
-      updateButton.addEventListener('click', function() {
-        favDialog.showModal();
-      });
-  
-      // Form cancel button closes the dialog box
-
-      cancelButton.addEventListener('click', function() {
-        favDialog.close(); 
-        
-      });
-      
-      
-    })();
+  </header>
     
-  </script>
-  
-   
+
 <script src="./pages/scripts/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,34 @@
+.imgcontainer{
+display: flex;
+}
+/*cambiar medidas*/
+.imghead{
+    width: 1270px;
+    height: 400px;
+    position: relative;
+}
+.imgperfil{
+width: 10%;
+position: absolute;
+align-self:flex-end;
+margin-left: 3%;
+}
+
+.config{
+    text-align: right;
+    margin-right: 1%;
+}
+
+.botones{
+    width: 30%;
+    position: absolute;
+   margin-left: 70%;
+   border: 10px;
+}
+.btn-bd-primary {
+    border-radius: 100%;
+   width: 50%;
+   height: 250%;
+   border-color: aquamarine;
+}
+
